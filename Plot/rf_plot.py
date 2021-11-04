@@ -1,5 +1,3 @@
-import pandas as pd 
-import numpy as np
 import matplotlib.pyplot as plt
 
 def rankplot_jh(ax, data, beg=1, Normalize = False, mode = "htol", **kwargs):
@@ -26,7 +24,7 @@ def rankplot_jh(ax, data, beg=1, Normalize = False, mode = "htol", **kwargs):
     if Normalize: 
         x = [ (i + 1) / length for i in range(length)]
     else : 
-        x = [ (i + beg) for i in range(length)]
+        x = [ (i + beg) for i in range(length) ]
     #
     
     ax.plot(x, arr, kwargs)

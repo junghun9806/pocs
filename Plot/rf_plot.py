@@ -27,7 +27,7 @@ def rankplot_jh(ax, data, beg=1, Normalize = False, mode = "htol", **kwargs):
         x = [ (i + beg) for i in range(length) ]
     #
     
-    ax.plot(x, arr, kwargs)
+    ax.plot(x, arr, **kwargs)
     
     return ax 
 #

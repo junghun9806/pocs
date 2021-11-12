@@ -95,7 +95,7 @@ class Parameter():
         ### --- generate parameters 
         # input 
         # parameter_dir : (str) The name of file to save the parameters. 
-        # save          : (boolean) Whether to save the parameters
+        # save          : (boolean) Whether to save the param
         ### --- end. 
         
         ### KWARGS BEGIN
@@ -146,7 +146,6 @@ class Parameter():
                 pd.DataFrame(para_dict, index = [0]).to_csv(parameter_dir, mode = "a", header = False, index = False)
             # 
         #
-        
         return para_dict
     #
 #

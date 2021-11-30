@@ -44,6 +44,7 @@ Things to do.
 
 """
 
+from typing import Dict
 import pandas as pd
 import os
 import scipy.stats as stats
@@ -54,7 +55,7 @@ class Parameter():
     # A class to generate random numbers. 
     # Used for parameter samplings.
     # ### --- end. 
-    def __init__(self, para_range_dir, parameter_dir, scale = "linear",  **kwargs):
+    def __init__(self, para_range_dir, parameter_dir, scale = "linear",  **kwargs) -> None:
         ### --- constructor 
         # input 
         # para_range_dir    : (str) A directory where the parameter sampling rane is recorded. 
@@ -91,7 +92,7 @@ class Parameter():
         self.case_id_set = set()
     #
 
-    def generate_parameters(self, parameter_dir = None, save=False, **kwargs):
+    def generate_parameters(self, parameter_dir = None, save=False, **kwargs) -> Dict:
         ### --- generate parameters 
         # input 
         # parameter_dir : (str) The name of file to save the parameters. 

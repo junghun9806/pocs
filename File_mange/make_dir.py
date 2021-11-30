@@ -1,6 +1,6 @@
 import os 
 
-def make_dir(file_path):
+def make_dir(file_path: str) -> None:
     if os.path.exists(file_path):
         pass
     else : 

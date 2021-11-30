@@ -1,6 +1,7 @@
 import matplotlib.pyplot as plt
+import pandas as pd
 
-def rankplot_jh(ax, data, beg=1, Normalize = False, mode = "htol", **kwargs):
+def rankplot_jh(ax: plt.axes, data: pd.DataFrame, beg=1, Normalize = False, mode = "htol", **kwargs) -> plt.axes:
     """
     Draw rank frequecny plot
     

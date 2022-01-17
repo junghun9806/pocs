@@ -5,7 +5,7 @@ Moduel information
 A container to solve SciPy ODE solution moduels. 
 The parameter range information should be given as below, and the directory should be 
 
-Good with /PBBP_UNIST/Samplings/random_parameters.py
+Use with /PBBP_UNIST/Samplings/random_parameters.py
 
 Required module. 
     pandas
@@ -29,7 +29,7 @@ Things to do.
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 import pandas as pd
-from PBBP_UNIST.File_mange import make_dir
+from PBBP_UNIST.File_mange import read_write
 import copy 
 import os 
 

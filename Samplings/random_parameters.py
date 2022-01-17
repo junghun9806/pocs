@@ -15,20 +15,15 @@ Input file.
     First 3 columns are required. 
 
     CSV format file
-    names,min,max,msb2012_min,msb2012_max,unit,Note
-    ao,0.1,10,0.33,102.9,,
-    at,0.1,10,0.53,8.907,,
-    ah,0.1,10,0.1,100,,
-    bo,0.1,10,0.369,1.51,,
-    bt,0.1,10,0.07,3.537,,
-    bh,0.1,10,0.07,3.537,,
-    A,0.1,10,0.01,100,,
-    Kd,0.00001,0.0001,0.00001,1,,
-    Kd_TF,1,100,1,1000,,
-    V,100,1000,100,1000,,
-    K_dlt,0.01,0.1,,,,
-    K_delta,1,10,,,,
-    k1,1,100,,,,
+    names,min,max,
+    ao,0.1,10,
+    at,0.1,10,
+    ah,0.1,10,
+    bo,0.1,10,
+    bt,0.1,10,
+    bh,0.1,10,
+    ...
+    A,0.1,10,0,
 
 Code written by Junghun Chae. 
 Contact: 
@@ -43,7 +38,6 @@ Things to do.
     
 
 """
-
 from typing import Dict
 import pandas as pd
 import os

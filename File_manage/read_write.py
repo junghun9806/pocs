@@ -34,11 +34,11 @@ def pickle_load(fname : str) -> None:
     return obj
 #
 
-def pickle_dump(fname : str) -> None:
-    make_dir(fname)
+def pickle_dump(f_dir : str, fname : str, obj) -> None:
+    make_dir(f_dir)
     
-    with open(fname, "wb") as fw: 
-        pickle.dump(fname, fw)
+    with open(f_dir + "/" + fname, "wb") as fw: 
+        pickle.dump(obj, fw)
     #
     return None
 #

@@ -12,14 +12,14 @@ Required module.
     matplotlib
     
 Code written by Junghun Chae. 
-Contact: junghun98@unist.ac.kr 
+Contact: junghun98@unist.ac.kr 0
 wjdgnswkd612@gmail.com
 """
 """
 Develop Note. 
 Things to do. 
 """
-
+import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns 
 
@@ -66,3 +66,24 @@ def draw_relplot(
     graph.savefig(save_dir, dpi=300)
 
     return graph.ax
+
+
+def draw_vplot(ax : plt.axes, data : pd.DataFrame, x : str, y: str, jitter=True, color = "0.8", inner="box", cut=0, **kward_violinplot, **kward_stripplot):
+    sns.violinplot(
+    data=data, 
+    y=y, x=x,
+    cut=cut, 
+    ax = ax, 
+    inner=inner,
+    **kward_violinplot)
+
+    sns.stripplot(
+    data=data, 
+    y=y, x=x,
+    ax = ax, 
+    jitter=jitter,
+    color=color,
+    **kward_stripplot)
+    
+    return ax 
+# 

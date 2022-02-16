@@ -41,6 +41,8 @@ Develop Note.
 Things to do. 
 """
 
+from ..ADT import nested_dict
+
 def vkeys(klv):
     """
     list of keys for 2nd level dictionary
@@ -135,6 +137,8 @@ def transpose(klv, dtype=dict):
 
 
 class KLV(dict):
+    def KLV
+    
     def vkeys(self):
         return vkeys(self)
 

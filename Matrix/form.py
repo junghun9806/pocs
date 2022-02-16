@@ -70,7 +70,6 @@ def to_distance_matrix(dist_df: pd.DataFrame, dist_index : str, *args : list, no
         #
         
         mat_len *= len(set(dist_df[arg + "1"]))
-        
     # 
     
     id2key = dict()

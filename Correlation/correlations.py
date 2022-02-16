@@ -43,12 +43,9 @@ def sign(x):
 ### --- end --- ### 
 
 def kendall_tau(x, y):
-    try:
-        len(x) == len(y)
-    except:
-        print("two list length not equal")
-        return float('NaN')
-    #
+    assert len(x) == len(y), "two list length not equal"
+    assert min(x) >= 0, f"minimum value of list x is negative: {min(x)}"
+    assert min(y) >= 0, f"minimum value of list y is negative: {min(y)}"
     
     U = 0
     D = 0 
@@ -68,7 +65,7 @@ def kendall_tau(x, y):
             if dif0 == 0: 
                 if dif1 ==0  : 
                     U += 0
-                    D += 0
+                    D += 1
                 else :
                     U += 0
                     D += 1

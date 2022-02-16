@@ -29,7 +29,7 @@ Things to do.
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 import pandas as pd
-from PBBP_UNIST.File_mange import read_write
+from ..File_manage import read_write
 import copy 
 import os 
 

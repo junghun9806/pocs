@@ -23,11 +23,10 @@ from itertools import product
 import pandas as pd
 import numpy as np
 
-from numba import jit 
-from numba.typed import List
+from numba import njit 
 
 
-@jit(nopython=True)
+@njit
 def to_condensed_distance(X:np.array):
     length = len(X)
     

@@ -1,0 +1,5 @@
+#Tag
+%%source
+
+#structure #degradation #N-degron #NTerminus 
+%%Structural insights into Ubr1-mediated N-degron polyubiquitination Nature volume 600, pages334–338 (2021)

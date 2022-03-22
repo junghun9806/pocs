@@ -1,0 +1,15 @@
+#Tag
+%%source
+
+#Volume #Cell #CellVolume
+%%Zhang Z, Krylov S, Arriaga EA, Polakowski R, Dovichi NJ. One-dimensional protein analysis of an HT29 human colon adenocarcinoma cell. Anal Chem. 2000 Jan 15 72(2):318-22
+A typical eukaryotic somatic cell has a 10-μm diameter, 500fL volume, and 500-pg mass.
+
+#ratio #NuclearToCell #Nc 
+%%https://doi.org/10.1007/s00294-019-00999-3 REVIEW Unravelling nuclear size control
+Nuclear volume correlated with cell volume across this range, maintaining a nuclear volume to cell volume (N/C) ratio of approximately 8% (Neumann and Nurse 2007). 
+Gradual nuclear growth as cells grow during the cell cycle was also observed in HeLa cells (Maeshima et al. 2011). 
+
+#HelaCell #NucleusVolume #CellVolume #COS-7 #cytoplasmicVolume
+%%Fujioka A, Terai K, Itoh RE, Aoki K, Nakamura T, Kuroda S, Nishida E, Matsuda M. Dynamics of the Ras/ERK MAPK cascade as monitored by fluorescent probes. J Biol Chem. 2006 Mar 31 281(13):8917-26 p.8919 
+The nuclear and cytoplasmic volumes of HeLa cells were 0.22 and 0.94 pl, respectively. Those of COS-7 were 0.14 and 2.4 pl, respectively.

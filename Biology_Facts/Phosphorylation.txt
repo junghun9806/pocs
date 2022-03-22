@@ -1,0 +1,12 @@
+#Tag
+%%source
+
+#timescale #coursegraining #ATP #MichaelisMenten 
+%%M. Thomson,J.Gunawardena/JournalofTheoreticalBiology261(2009)626–636
+The main restrictions in terms of applicability of our methods are the requirements that enzymes cannot also be 
+substrates and that the recharging mechanism for each modification should keep the concentration of donor 
+molecules constant on the time scale of steady state formation. The latter requirement is widely believed
+to hold for phosphorylation in which the donor molecule is ATP, and it has been taken for granted in all 
+mathematical models of phosphorylation, but its validity for other forms of modification appears not to have 
+been widelys tudied.
+

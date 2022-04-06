@@ -25,13 +25,9 @@ Develop Note.
 Things to do. 
 """
 
-
-import matplotlib.pyplot as plt
-import scipy.stats as stats
-import pandas as pd
-from ..File_manage import read_write
-import copy 
 import os 
+
+import pandas as pd
 
 class ODE_solution():
     num_simulation = 0

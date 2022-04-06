@@ -1,0 +1,118 @@
+#Tag
+%%source
+$Variables 
+
+$DATEDIR = ./Data/001_Parameter_Summary.xlsx
+
+#proteinCopyNumber #proteinAbundance #proteinConcentration 
+%%QuantifyingE. coliProteome andTranscriptome with Single-MoleculeSensitivity in Single Cells
+Range from 0.1~10^4 molecules per cell (Fig. 2A)
+More than half of all proteins --> less than 100 molecules per cell
+Note: values are normalized by cell volume
+
+
+#EColi #cIDimer #cIDNADissociationConstant #TFDissociationConstant 
+See $DATADIR
+%%Quantitative Transcription Factor Binding Kinetics at the Single-Molecule Level
+CI dimer - operator dissociation constant
+Min: 2.9*10^-13M
+Max: 2.2*10^-8 M
+
+
+#EColi #repressorUnbinding #DNATF #TFBindingRate #TFUnbindingRate #TFDissociationRate #TFAssociationConsant
+See $DATADIR
+%%Lambda repressor mutations that increase the affinity and specificity of operato    
+0.022 /sec
+Ecoli repressor - operator binding 
+2.8*10^7 /sec/M
+
+
+
+#EColi #tetR #dissociationConstant #DNADissociationConstant #TFDissociationConstant
+See $DATADIR
+%%Thermodynamic Analysis of Tetracycline-Mediated Induction of Tet Repressor by a Quantitative Methylation Protection Assay
+tetR dimer dissociation constant
+Min: 18nM
+Max: 110nM
+tetR dimer-DNA dissociation constant		
+Min: 0.1pM
+Max: 1pM
+%%The Tetracycline Repressor—A Paradigm for a Biological Switch
+tetR dimer-DNA dissociation constant
+~10^-11				
+
+
+#EColi #doublingTime #cellCycleTime
+See $DATADIR
+%%Regulatory Dynamics of Synthetic Gene Networks with positive Feedback
+Cell cycle time		90 min
+%%Negative Autoregulration speeds the response times of transcription Networks
+Cell cycle time		135 min
+%%The distribution of bacterial doubling times in the wild 
+"The bacterium Escherichia coli can divide every 20 min in the laboratory under aerobic, nutrient-rich conditions."
+Seems like widely known
+Cell cycle time		20 min
+
+
+#degradationRate #GFP #halfLife 
+%%Regulatory Dynamics of Synthetic Gene Networks with positive Feedback
+See $DATADIR
+GFP deg rate	50min
+
+#EColi #cellVolume 
+%%Kubitschek HE. Growth during the bacterial cell cycle: analysis of cell size distribution. Biophys J. 1969 Jun9(6):792-809. DOI: 10.1016/S0006-3495(69)86418-0 p.796
+%%Wang Y, Hammes F, Düggelin M, Egli T. Influence of size, shape, and flexibility on bacterial passage through micropore membrane filters. Environ Sci Technol. 2008 Sep 1 42(17):6749-54 p.6751
+See $DATADIR
+Min: 0.28 /nM
+Max: 0.88 /nM
+
+
+#EColi #aTc #degradationRate 
+%%Global analysis of mRNA decay and abundance inEscherichia coliat single-gene resolution usingtwo-color fluorescent DNA microarrays
+See $DATADIR
+Min: 0.011/h
+Max: 0.079/h
+
+#EColi #mRNA #degradationRate
+%%J. A. Bernstein et al., Proc. Natl Acad. Sci. USA 99:9697, 2002;
+See $DATADIR
+1<= <=15 [min]
+
+#cI #degradationRate #halfLife #lifeTime #dissociationConstant #dissociationRate #associationRate #bindingRate #UnbindingRate
+%%Adam et al. 1998 https://doi.org/10.1093/genetics/149.4.1633
+%%primary Reinitz et al. https://doi.org/10.1016/S0022-5193(05)80111-0
+See $DATADIR
+halfLife 16.5min 
+CI/CI2 life time ~ 40 min
+CI -> CI2   180/M/sec
+CI2 -> CI   1800/sec 
+
+#Cro #degradationRate #halfLife #lifeTime 
+%%Adam et al. 1998 https://doi.org/10.1093/genetics/149.4.1633
+%%primary Reinitz et al. https://doi.org/10.1016/S0022-5193(05)80111-0
+See $DATADIR
+halfLife 4.62min 
+Cro/Cro2 life time ~ 30 min
+CRO->CRO2	0.05/M/sec
+CRO2->CRO	0.5/sec 
+
+#N #degradationRate #halfLife 
+%%Adam et al. 1998 https://doi.org/10.1093/genetics/149.4.1633
+%%primary Gottesman et al. https://doi.org/10.1016/0092-8674(81)90518-3
+See $DATADIR
+halfLife 5min 
+
+#Lac repressor #DNA #associationRate #TFBinding 
+%%Hippel et al. https://doi.org/10.1016/S0021-9258(19)84994-3 
+See $DATADIR 
+Lac repressor DNA kassoication Min: 10^8 /M/sec	Max: 5*10^10 /M/sec
+
+#basalPromoterActivity #basalTranscription #promotorActivity
+%%Shea, Madeline A., and Gary K. Ackers. "The OR control system of bacteriophage lambda: A physical-chemical model for gene regulation." Journal of molecular biology 181.2 (1985): 211-230.
+See $DATADIR 
+Basal to full promotor activity ratio 
+Basal 0.001 /sec to Full 0.008 /sec - 0.014 /sec
+
+
+
+

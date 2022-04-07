@@ -4,6 +4,10 @@ $Variables
 
 $DATEDIR = ./Data/001_Parameter_Summary.xlsx
 
+#mRNA #copyNumber #mRNACopyNumber 
+%%Quantifying E. coli Proteome and Transcriptome with Single-Molecule Sensitivity in Single Cells
+Range ~ 10 mRNA per cell (Cell wide average) 
+
 #proteinCopyNumber #proteinAbundance #proteinConcentration 
 %%QuantifyingE. coliProteome andTranscriptome with Single-MoleculeSensitivity in Single Cells
 Range from 0.1~10^4 molecules per cell (Fig. 2A)

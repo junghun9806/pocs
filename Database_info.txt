@@ -1,0 +1,29 @@
+DataSources 
+
+# Bibliometic analysis; General Publications; 
+Pubmed  - Biological publications - Abstracts; Authors; Publication dates; ... 
+OpenAlex (Incorporated Microsoft Academic Graph without patent data) - open index of scholarly works, authors, venues, institutions, and concepts
+CrossRef - 
+Web of Science - 
+Scopus 
+Dimensions
+
+# Genes and annotations 
+GENECODE - Protein-coding genes 
+ENCODE - comprehensive parts list of functional elements in the human genome; Protein-coding genes; 
+GWAS (Genome Wide Association Studies) - Association between gene variants and traits; SNPs; 
+
+# Drug info 
+DrugBank - Drugs and drug targets; 
+
+# Disease info 
+CTD database - chemical-gene/protein interactions; chemical-disease; gene-disease relationships; 
+OMIM database - Human genes - genetic disorder relationships; 
+DisGeNET - Gene-disease associations 
+Orphanet - Rare diseases; Orphan drugs; clinical trialsl expert networks; 
+ClinGen - clinical relevance of genes & variants
+ClinVar - Genomic variation to human health relationships
+PheGenI - Integration of NHGRI genome wide association study with NCBI Gene, dbGaP, OMIM, eQTL, dbSNP data. 
+IncRNADisease - ncRNA to disease associations 
+HMDD - miRNA and disease associations
+

@@ -27,3 +27,6 @@ PheGenI - Integration of NHGRI genome wide association study with NCBI Gene, dbG
 IncRNADisease - ncRNA to disease associations 
 HMDD - miRNA and disease associations
 
+# Food and Agriculture 
+FAOSTAT - https://www.fao.org/faostat/en/#home
+US Department of Agriculture - https://fdc.nal.usda.gov/ 

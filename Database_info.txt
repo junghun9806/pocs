@@ -1,4 +1,9 @@
 DataSources 
+# Patent data 
+PATSTAT curated by EPO 
+https://patentsview.org/ by USPTO 
+
+
 
 # Bibliometic analysis; General Publications; 
 Pubmed  - Biological publications - Abstracts; Authors; Publication dates; ... 

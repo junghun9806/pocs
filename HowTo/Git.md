@@ -202,3 +202,5 @@ git diff branchA branchB -- path/to/file
 ```
 
 ---
+
+## These tips are written by WooJoong Kim.

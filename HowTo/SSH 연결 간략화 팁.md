@@ -65,3 +65,4 @@ Match User wjkim Address *,!10.0.100.0/24,!10.xx.yy.0/24,!10.xx.zz.0/24
 > 2. 연구실이나 서버실에서 접속 시 public key와 password 중 하나만 써도 된다.
 > 3. 이외의 IP에서 접속 시 반드시 password를 사용해야 한다. (public key를 무시)
 
+### These tips are made by WooJoong Kim.

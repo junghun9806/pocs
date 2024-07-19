@@ -3,15 +3,16 @@ DataSources
 PATSTAT curated by EPO 
 https://patentsview.org/ by USPTO 
 
-
-
-# Bibliometic analysis; General Publications; 
+# Bibliometic analysis; General Publications;
+# Check for the payments when you need
 Pubmed  - Biological publications - Abstracts; Authors; Publication dates; ... 
 OpenAlex (Incorporated Microsoft Academic Graph without patent data) - open index of scholarly works, authors, venues, institutions, and concepts
-CrossRef - 
+CrossRef - Provides digital object identifiers (DOIs) and metadata for scholarly content across various disciplines. 
 Web of Science - 
-Scopus 
-Dimensions
+Scopus - Abstract and citation database covering scientific, technical, medical, and social sciences literature.
+Dimensions - Integrates various sources of research information, including publications, grants, clinical trials, patents, and policy documents.
+
+Pubtator - Currently version 3 is the most updated one. gene/cell lines/ diseases and other keywords detected from the pubmed articles. 
 
 # Human BioMolecular Atlas Program
 https://portal.hubmapconsortium.org/
@@ -38,3 +39,4 @@ HMDD - miRNA and disease associations
 # Food and Agriculture 
 FAOSTAT - https://www.fao.org/faostat/en/#home
 US Department of Agriculture - https://fdc.nal.usda.gov/ 
+

@@ -9,10 +9,8 @@ Required module.
     Enum
     
 Code written by Junghun Chae. 
-Contact: junghun98@unist.ac.kr 
-wjdgnswkd612@gmail.com
+Contact: junghun98@unist.ac.kr
 """
-
 """
 Develop Note. 
 Things to do. 

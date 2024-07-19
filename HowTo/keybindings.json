@@ -1,0 +1,188 @@
+// Place your key bindings in this file to override the defaults
+[
+    /*
+    ===========================
+    --- OPEN OTHER FEATURES ---
+    =========================== 
+    */
+
+    // open Terminal
+    { "key": "ctrl+shift+alt+t",        "command": "workbench.action.terminal.new",
+    "when": "terminalProcessSupported || terminalWebExtensionContributedProfile" },
+    
+    // show Command palette
+    { "key": "ctrl+p",                  "command": "workbench.action.showCommands" },
+    
+    /*
+    ======================
+    --- TAB NAVIGATION ---
+    ======================
+     */
+    // open File...
+    { "key": "ctrl+t",                  "command": "workbench.action.files.openFile",
+                                        "when": "true" },
+
+    // close Editor
+    { "key": "ctrl+shift+w",            "command": "workbench.action.closeActiveEditor" },
+    { "key": "ctrl+shift+w",            "command": "workbench.action.closeGroup",
+                                        "when": "activeEditorGroupEmpty && multipleEditorGroups" },
+    { "key": "ctrl+shift+w",            "command": "workbench.action.terminal.killEditor",
+                                        "when": "terminalEditorFocus && terminalFocus && terminalHasBeenCreated || terminalEditorFocus && terminalFocus && terminalProcessSupported" },
+
+    // Reopen closed editor
+    // ctrl+shift+t
+
+    // Focus left/right tab
+    // ctrl+pageup/pagedown
+
+    // Move tab to left/right
+    // ctrl+shift+pageup/pagedown
+
+    /*
+    ========================
+    --- SPLIT NAVIGATION ---
+    ======================== 
+    */
+    // Split right
+    { "key": "ctrl+alt+t",              "command": "workbench.action.splitEditor" },
+    
+    // Focus left/right split
+    { "key": "ctrl+alt+pageup",         "command": "workbench.action.focusLeftGroup" },
+    { "key": "ctrl+alt+pagedown",       "command": "workbench.action.focusRightGroup" },
+
+    // Move to left/right split
+    { "key": "ctrl+shift+alt+pageup",   "command": "workbench.action.moveActiveEditorGroupLeft" },
+    { "key": "ctrl+shift+alt+pagedown", "command": "workbench.action.moveActiveEditorGroupRight" },
+
+    /*
+    =========================
+    --- LINE MODIFICATION ---
+    =========================
+    */
+    // Move line up/down
+    { "key": "ctrl+shift+up",           "command": "editor.action.moveLinesUpAction",
+                                        "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+shift+down",         "command": "editor.action.moveLinesDownAction",
+                                        "when": "editorTextFocus && !editorReadonly" },
+    // Insert below / above
+    { "key": "shift+enter",             "command": "editor.action.insertLineAfter",
+                                        "when": "editorTextFocus && !editorReadonly" },
+    { "key": "ctrl+enter",              "command": "editor.action.insertLineBefore",
+                                        "when": "editorTextFocus && !editorReadonly" },
+
+    // Delte line
+    { "key": "shift+delete",            "command": "editor.action.deleteLines",
+                                        "when": "textInputFocus && !editorReadonly" },
+
+    /*
+    ==================
+    --- SELECTIONS ---
+    ==================
+    */
+    // select Word
+    { "key": "ctrl+w",                  "command": "editor.action.addSelectionToNextFindMatch",
+                                        "when": "editorFocus" },
+
+    // select all Matches
+    { "key": "ctrl+alt+j",              "command": "editor.action.selectAllMatches",
+                                        "when": "editorFocus && findWidgetVisible" },
+
+    // select all occurences of selection
+    { "key": "ctrl+shift+alt+j",        "command": "editor.action.selectHighlights",
+                                        "when": "editorFocus" },
+
+    /*
+    ===================
+    --- Definitions ---
+    ===================
+    */
+    // show Hover
+    { "key": "ctrl+q",                  "command": "editor.action.showHover",
+                                        "when": "editorTextFocus" },
+
+    // go to Definition
+    { "key": "ctrl+b",                  "command": "editor.action.revealDefinition",
+                                        "when": "editorHasDefinitionProvider && editorTextFocus" },
+
+    // reveal Usages
+    { "key": "ctrl+shift+b",            "command": "goToPreviousReference",
+                                        "when": "inReferenceSearchEditor || referenceSearchVisible" },
+    { "key": "ctrl+shift+b",            "command": "editor.action.goToReferences",
+                                        "when": "editorHasReferenceProvider && editorTextFocus && !inReferenceSearchEditor && !isInEmbeddedEditor" },
+
+    /*
+    =======================
+    --- Caret movements ---
+    =======================
+    */
+    // move caret by Word
+    { "key": "alt+left",                "command": "cursorWordPartLeft",
+                                        "when": "editorTextFocus", },
+    { "key": "alt+right",               "command": "cursorWordPartRight",
+                                        "when": "editorTextFocus", },
+    { "key": "shift+alt+left",          "command": "cursorWordPartLeftSelect",
+                                        "when": "editorTextFocus" },
+    { "key": "shift+alt+right",         "command": "cursorWordPartRightSelect",
+                                        "when": "editorTextFocus" },
+
+    // move to matching Brackets
+    { "key": "alt+[",                   "command": "editor.action.jumpToBracket",
+                                        "when": "editorTextFocus" },
+    { "key": "alt+]",                   "command": "editor.action.jumpToBracket",
+                                        "when": "editorTextFocus" },
+
+    // move caret by Blank Lines
+    {
+        "key": "alt+up",    // whatever keybinding you want
+        "command": "cursorMove",
+        "args": {
+            "to": "prevBlankLine",
+            "select": false         // false is the default if omitted
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "nextBlankLine",
+            "select": false         // false is the default if omitted
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+up",    // whatever keybinding you want
+        "command": "cursorMove",
+        "args": {
+            "to": "prevBlankLine",
+            "select": true         // false is the default if omitted
+        },
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+down",
+        "command": "cursorMove",
+        "args": {
+            "to": "nextBlankLine",
+            "select": true         // false is the default if omitted
+        },
+        "when": "editorTextFocus"
+    },
+
+    // navigate to past / future position
+    { "key": "ctrl+shift+alt+left",     "command": "workbench.action.navigateBack",
+                                        "when": "canNavigateBack" },
+    { "key": "ctrl+shift+alt+right",    "command": "workbench.action.navigateForward",
+                                        "when": "canNavigateForward" },
+
+    // Clone caret above / below
+    { "key": "ctrl+shift+alt+up",       "command": "editor.action.insertCursorAbove",
+                                        "when": "editorTextFocus" },
+    { "key": "ctrl+shift+alt+down",     "command": "editor.action.insertCursorBelow",
+                                        "when": "editorTextFocus" },
+
+    // to prevent shortcut collision
+    { "key": "ctrl+shift+enter",        "command": "interactive.execute",
+                                        "when": "activeEditor == 'workbench.editor.interactive'" },
+                                        
+]
